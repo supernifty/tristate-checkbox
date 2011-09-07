@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en_US">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/main.css" type="text/css" />
+  </head>
+  <body>
+    <h2>Tri-state Checkbox Example</h2>
+    <form onsubmit="alert( 'tri1: ' + document.getElementById('tri1_frm').value + ' tri2: ' + document.getElementById('tri2_frm').value); return false;">
+      <label for="tri1">Tri-state checkbox:</label>
+      <span class="tristate" id="tri1"></span>
+      <br/>
+      <label for="tri2">Another tri-state checkbox:</label>
+      <span class="tristate" id="tri2"></span>
+      <br/>
+      <input type="submit"/>
+    </form>
+    <script src="assets/main.js" type="text/javascript"></script>
+  </body>
+</html>
