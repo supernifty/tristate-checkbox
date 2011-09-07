@@ -19,10 +19,10 @@ Refer to example.htm for how to use it.
 2.  Include the CSS file in your HTML:
     `<link rel="stylesheet" href="assets/main.css" type="text/css" />`
 
-3.  Include a div with an id and the tristate class in your HTML:
-    `<div id="tri_id" class="tristate"/>`
-
     You can safely append the contents of these JS and CSS files to your own to save on an extra request in your main page.
+
+3.  Include a div with an ID and the class set to "tristate":
+    `<div id="tri_id" class="tristate"/>`
 
 4.  Submitted tristates will have their field name set to the ID specified in the div. The value will be either "yes", "no" or "none".
 
