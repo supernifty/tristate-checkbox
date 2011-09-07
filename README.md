@@ -36,6 +36,7 @@ Just change the values of YES, NO and NONE
 Compatibility
 -------------
 Tested on:
+
 *   Chrome 15
 *   Firefox 6
 *   IE 8
